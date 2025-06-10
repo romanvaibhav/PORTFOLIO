@@ -1,0 +1,129 @@
+.gradient-bg {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgb(18, 1, 33), rgb(3, 3, 3));
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  flex-direction: column;
+}
+
+.img {
+  margin-left: -50px;
+  height: 550px;
+  width: 75%;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.name {
+  margin-top: -10px;
+  font-size: 150px;
+  letter-spacing: 30px;
+  background: linear-gradient(to right, #e52727, #076dd3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.photo {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin-top: -230px;
+}
+
+.welcome {
+  margin-top: 300px;
+  margin-left: -120px;
+}
+
+.wel {
+  font-size: 45px;
+  font-weight: bold;
+  background: linear-gradient(to right, #b3aeaf, #e52727);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.port {
+  margin-top: -20px;
+  margin-left: 130px;
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(to right, #fd0133, #076dd3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.to {
+  margin-top: -50px;
+  margin-left: 130px;
+  font-size: 20px;
+}
+
+/* ✅ Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .img {
+    height: 300px;
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .name {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .photo {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0;
+    align-items: center;
+  }
+
+  .welcome {
+    margin-top: 100px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .wel {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .port {
+    font-size: 16px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .to {
+    font-size: 14px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .gradient-bg {
+    height: auto;
+    padding: 20px;
+  }
+}

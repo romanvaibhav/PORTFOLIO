@@ -1,0 +1,148 @@
+  .window-close {
+    background: #ff5f56;
+  }
+  .block{
+    margin-top: -16px;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(13, 15, 70));
+    color: white;
+
+  }
+  .window-minimize {
+    background: #ffbd2e;
+  }
+  .window-maximize {
+    background: #27c93f;
+  }
+  /* Code lines */
+  .code-line {
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .line-number {
+    user-select: none;
+    color: #a09bb9;
+    width: 1.3em;
+    text-align: right;
+  }
+.code-card {
+    --bg-code: rgba(50, 46, 58, 0.85);
+    /* --bg-window: #4a4056; */
+    background-color: var(--bg-code);
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 2rem auto 4rem auto;
+    padding: 24px 32px 40px 32px;
+    position: relative;
+    font-family: 'Fira Mono', monospace, Consolas, monospace;
+    font-size: 1rem;
+    color: #f0e9ff;
+    box-shadow: 0 8px 25px rgba(78, 51, 221, 0.4);
+  }
+  /* Window bar */
+  .code-card::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    right: 16px;
+    height: 36px;
+    background-color: var(--bg-window);
+    border-radius: 12px 12px 0 0;
+  }
+.banner{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.role{
+      background: linear-gradient(to bottom, #dbb5f0, #6711b3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+    margin-top: -2%;
+    font-size: 150px;
+    margin-left: -30%;
+    font-weight: bold;
+}
+.I{
+        margin-left: -65%;
+        margin-top: 90px;
+
+}
+.subtitle{
+        font-size: 50px;
+        margin-top: -8%;
+      background: linear-gradient(to bottom, #703c8c, #6104b1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+}
+.building{
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+        background: linear-gradient(to bottom, #eae0f0, #8337c6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.se{
+    margin-top: -5%;
+    font-size: 130px;
+    background: linear-gradient(to bottom, #dbb5f0, #6711b3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.full{
+    margin-top: -7%;
+    font-size: 20px;
+}
+.secondBlock{
+    margin-top: -10%;
+    text-align: right;
+    margin-right: 10%;
+}
+.full{
+    margin-right: 21%;
+     background: linear-gradient(to bottom, #e0c5ef, #6104b1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.react{
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+           
+.github{
+    margin-left: 500px;
+}
+.js {
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+.angular{
+    margin-left: 370px;
+
+}
+.node{
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+.java{
+    margin-left: 300px;
+}
