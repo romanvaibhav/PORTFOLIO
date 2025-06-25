@@ -1,0 +1,108 @@
+.techBox {
+  /* margin-top: -3%; ❌ remove this */
+  margin-top: 0;
+  padding: 0;
+
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(13, 15, 70));
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center; /* horizontal center */
+  gap: 50px;
+}
+
+.bts {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* spacing between buttons */
+}
+
+.Projext {
+  height: 40px;
+  width: 300px;
+  border: 1px solid rgb(12, 24, 101);
+  background-color: transparent; /* fully transparent */
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.Projext:hover {
+  background-color: rgba(130, 134, 246, 0.5); /* semi-transparent dark blue */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); /* for Safari */
+}
+
+.projectsWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 290px);
+  gap: 80px;
+  justify-content: center;
+}
+
+.projectDiv {
+  width: 290px;
+  min-height: 55vh;
+  height: auto;
+
+  box-shadow: 0 8px 16px rgba(0, 102, 255, 0.4);
+  /* border: 1px solid red; */
+  background: fixed;
+  border-radius: 5px;
+  padding: 12px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.imgdiv {
+  width: 100%;
+  height: 50%;
+}
+.imgdiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.namingProject {
+  height: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* vertical alignment */
+}
+.techBadge {
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 4px;
+  font-size: 14px;
+  background-color: rgba(0, 102, 255, 0.1); /* light blue background */
+  color: #0066ff;
+  border: 1px solid #0066ff;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.projDesc {
+  width: 100%;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 15px;
+  padding: 0;
+  margin-top: -25px;
+}
+.codeBtn {
+  margin-left: 15px;
+}
+
+/*  */

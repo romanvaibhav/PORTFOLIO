@@ -29,19 +29,22 @@
     text-align: right;
   }
 .code-card {
-    --bg-code: rgba(50, 46, 58, 0.85);
-    /* --bg-window: #4a4056; */
-    background-color: var(--bg-code);
-    border-radius: 12px;
-    max-width: 600px;
-    margin: 2rem auto 4rem auto;
-    padding: 24px 32px 40px 32px;
-    position: relative;
-    font-family: 'Fira Mono', monospace, Consolas, monospace;
-    font-size: 1rem;
-    color: #f0e9ff;
-    box-shadow: 0 8px 25px rgba(78, 51, 221, 0.4);
-  }
+  background-color: rgba(243, 245, 249, 0.08); 
+ backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 24px 32px 40px 32px;
+  margin: 2rem auto 4rem auto;
+  max-width: 700px;
+  color: #f0e9ff;
+  font-family: 'Fira Mono', monospace, Consolas, monospace;
+  font-size: 1rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  position: relative;
+    z-index: 0;
+
+}
+
   /* Window bar */
   .code-card::before {
     content: '';
@@ -146,3 +149,4 @@
 .java{
     margin-left: 300px;
 }
+

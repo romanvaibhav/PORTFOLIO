@@ -1,0 +1,46 @@
+.about {
+  margin-top: -22px;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to top, rgb(0, 0, 0), rgb(13, 15, 70));
+  color: white;
+  padding-bottom: 2%;
+}
+.highlight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.high {
+  font-weight: bold;
+  font-size: 50px;
+  background: linear-gradient(to bottom, #dbb5f0, #6711b3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin-top: 5%;
+}
+.code {
+  background-color: rgba(243, 245, 249, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 24px 32px 40px 32px;
+  margin: 2rem auto 4rem auto;
+  max-width: 1000px;
+  color: #f0e9ff;
+  font-family: "Fira Mono", monospace, Consolas, monospace;
+  font-size: 1rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 0;
+}
+
+.content {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+  line-height: 1.8;
+}
