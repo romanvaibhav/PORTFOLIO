@@ -1,6 +1,8 @@
 import "./first.css";
 import { Link } from "react-scroll";
 import SideBar from "../Sidebar/SideBar";
+import myImg from "../../assets/vaibhav-portfolio-image.png";
+
 function First() {
   return (
     <div className="gradient-bg">
@@ -14,11 +16,7 @@ function First() {
           <p className="to">TO MY</p>
           <p className="port">PORTFOLIO</p>
         </div>
-        <img
-          className="img"
-          src="/src/assets/WhatsApp Image 2025-05-27 at 10.50.05_f06d8c76-fotor-bg-remover-202506110341.png"
-          alt=""
-        />
+        <img className="img" src={myImg} alt="" />
       </div>
       <SideBar></SideBar>
     </div>

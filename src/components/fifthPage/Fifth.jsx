@@ -3,6 +3,8 @@ import { useState } from "react";
 import { faSchool } from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import dashboard from "../../assets/dashboard.png";
+import portfolio from "../../assets/Portfolio.png";
 
 import { useEffect } from "react";
 function Fifth() {
@@ -35,10 +37,7 @@ function Fifth() {
           <div className="projectsWrapper ">
             <div className="projectDiv" data-aos="fade-up-right">
               <div className="imgdiv">
-                <img
-                  src="/src/assets/Screenshot 2025-06-20 024722.png"
-                  alt=""
-                />
+                <img src={dashboard} alt="" />
               </div>
               <div className="namingProject">
                 <h4>Dashboard-Panel</h4>
@@ -88,7 +87,7 @@ function Fifth() {
 
             <div className="projectDiv" data-aos="fade-up">
               <div className="imgdiv">
-                <img src="/src/assets/Portfolio.png" alt="" />
+                <img src={portfolio} alt="" />
               </div>
 
               <div className="namingProject">

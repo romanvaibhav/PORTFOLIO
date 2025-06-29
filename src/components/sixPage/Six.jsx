@@ -1,6 +1,7 @@
 import "./Six.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import DSA from "../../assets/DSA.png";
 
 import { useEffect } from "react";
 function Six() {
@@ -15,7 +16,7 @@ function Six() {
       <div className="Limits">
         <div className="imgandskills">
           <div className="thinkimg">
-            <img src="/src/assets/DSA.png" alt="" />
+            <img src={DSA} alt="" />
           </div>
 
           <div className="achieve">
