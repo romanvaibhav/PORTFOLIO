@@ -9,7 +9,6 @@
   padding: 0px;
   flex-direction: column;
 }
-
 .img {
   margin-left: -50px;
   height: 550px;
@@ -18,11 +17,12 @@
 }
 
 @keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
   50% {
     transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0px);
   }
 }
 
@@ -35,6 +35,30 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+  animation: tada 1s ease-in-out;
+}
+@keyframes tada {
+  0% {
+    transform: scale(1);
+  }
+  10%,
+  20% {
+    transform: scale(0.9) rotate(-3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale(1.1) rotate(3deg);
+  }
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
 }
 
 .photo {
@@ -47,6 +71,7 @@
 .welcome {
   margin-top: 300px;
   margin-left: -120px;
+  animation: bounceInUp 1.2s ease-out forwards;
 }
 
 .wel {
@@ -57,6 +82,25 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+}
+@keyframes bounceInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(1000px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+
+  80% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .port {

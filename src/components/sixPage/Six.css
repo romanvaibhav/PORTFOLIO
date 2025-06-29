@@ -1,0 +1,91 @@
+.sixblock {
+  margin-top: 0; /* avoid pulling up */
+  padding-top: 120px;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(13, 15, 70));
+  color: white;
+}
+.problemHead {
+  /* margin-top: 20px; */
+  margin-left: 15%;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 50px;
+  background: linear-gradient(to bottom, #dbb5f0, #6711b3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.imgandskills {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.Limits {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; optional: centers vertically too */
+  width: 80%;
+  height: 80vh;
+  /* border: 1px solid rebeccapurple; */
+  margin: auto; /* centers .Limits if needed */
+}
+
+.imgandskills {
+  /* border: 1px solid red; */
+  width: 100%; /* changed from 100% */
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.thinkimg img {
+  /* background-size: cover; */
+  width: 100%;
+  height: 90%;
+  margin-left: 4rem;
+}
+.achieve {
+  width: 50%;
+  height: 40vh; /* ✅ add height */
+  display: flex;
+  margin-top: 21%;
+  margin-left: 20%;
+  margin-right: -100px;
+  flex-direction: column;
+  justify-content: flex-end; /* ✅ align children to bottom */
+}
+
+.ment {
+  width: 28rem;
+  height: 20vh;
+  margin-top: 40px;
+  margin-right: 20px;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent; /* Fully transparent */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 12px 24px rgba(77, 214, 114, 0.5);
+}
+
+.ment h3 {
+  background: linear-gradient(to bottom, #caf4bd, #024612);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.subach {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,60 @@
+/* Full-screen container with gradient background */
+.contact-container {
+  /* background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(13, 15, 70)); */
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+}
+
+/* Form styling */
+.contact-form {
+  /* background-color: rgba(255, 255, 255, 0.05); */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-shadow: 0 8px 16px rgba(0, 102, 255, 0.4);
+}
+
+/* Heading */
+.form-heading {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+/* Inputs and textarea */
+.form-input,
+.form-textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Submit button */
+.form-button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #0052cc;
+}

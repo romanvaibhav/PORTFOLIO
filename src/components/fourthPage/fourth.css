@@ -12,6 +12,8 @@
   align-items: center;
 }
 .exphigh {
+  margin-top: 7rem;
+
   font-weight: bold;
   font-size: 50px;
   background: linear-gradient(to bottom, #dbb5f0, #6711b3);

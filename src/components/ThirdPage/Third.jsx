@@ -1,11 +1,17 @@
 import "./Third.css";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Third() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div className="about">
       <div className="highlight">
         <h1 className="high">About Me</h1>
       </div>
-      <div className="code">
+      <div className="code" data-aos="zoom-in-right">
         <p className="content">
           I am a highly enthusiastic and driven fullstack developer, completed
           my Bachelor's degree from JSPM's BSIOTR at Pune University. I have 1+
