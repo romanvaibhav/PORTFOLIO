@@ -106,7 +106,7 @@
   }
   .thinkimg img {
     width: 70%;
-    height: 10vh; /* use auto for responsive height */
+    height: 30vh; /* use auto for responsive height */
     margin-left: 1rem;
     max-width: 100%; /* ✅ prevent image from overflowing */
   }
