@@ -5,11 +5,7 @@ function SideBar() {
   return (
     <div>
       <div className="right-sidebar">
-        <div className="sidebar-icon">
-          {/* You can replace this with an SVG or FontAwesome icon */}
-          <span>☰</span>
-        </div>
-        <div className="sidebar-content">
+        <div className="bottom-nav">
           <p>
             <Link to="home" smooth={true} duration={500}>
               Home

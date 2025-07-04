@@ -32,15 +32,7 @@ function Six() {
               </div>
             </div>
             <div>
-              <div
-                style={{
-                  display: "flex",
-                  gap: "130px",
-                  alignItems: "center",
-                  marginBottom: "-40px",
-                  marginTop: "30px",
-                }}
-              >
+              <div className="sixIcon">
                 <a
                   href="https://www.hackerrank.com/profile/vaibhavroman2022"
                   target="_blank"
@@ -49,8 +41,8 @@ function Six() {
                     className="social-icon"
                     src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png"
                     alt="HackerRank"
-                    width="40"
-                    height="40"
+                    width="30"
+                    height="30"
                   />
                 </a>
                 <a
@@ -62,8 +54,8 @@ function Six() {
                     className="social-icon"
                     src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
                     alt="LeetCode"
-                    width="40"
-                    height="40"
+                    width="30"
+                    height="30"
                   />
                 </a>
 
@@ -75,8 +67,8 @@ function Six() {
                     className="social-icon"
                     src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg"
                     alt="GeeksforGeeks"
-                    width="40"
-                    height="40"
+                    width="30"
+                    height="30"
                   />
                 </a>
               </div>

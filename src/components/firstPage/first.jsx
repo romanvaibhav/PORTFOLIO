@@ -18,7 +18,7 @@ function First() {
         </div>
         <img className="img" src={myImg} alt="" />
       </div>
-      <SideBar></SideBar>
+      {/* <SideBar></SideBar> */}
     </div>
   );
 }

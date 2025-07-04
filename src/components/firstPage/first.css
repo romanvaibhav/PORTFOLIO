@@ -121,53 +121,70 @@
   font-size: 20px;
 }
 
-/* ✅ Media Query for Mobile Devices */
 @media (max-width: 768px) {
+  .gradient-bg {
+    height: auto;
+    /* padding: 20px 10px; */
+    flex-direction: column;
+  }
+  .jai {
+    margin-left: -60px;
+  }
   .img {
-    height: 300px;
-    width: 90%;
+    height: 250px;
+    width: 100%;
     margin-left: 0;
+    object-fit: contain;
   }
 
   .name {
-    font-size: 50px;
-    letter-spacing: 5px;
+    font-size: 48px;
+    letter-spacing: 3px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .photo {
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
-    margin-top: 0;
+    margin-top: -20px;
     align-items: center;
   }
 
   .welcome {
-    margin-top: 100px;
-    margin-left: 0;
+    margin: 20px 0;
     text-align: center;
   }
 
   .wel {
-    font-size: 25px;
-    text-align: center;
-  }
-
-  .port {
-    font-size: 16px;
-    margin-left: 0;
-    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
   }
 
   .to {
-    font-size: 14px;
-    margin-left: 0;
-    text-align: center;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: -8px;
   }
 
-  .gradient-bg {
-    height: auto;
-    padding: 20px;
+  .port {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: -6px;
+  }
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 60px; /* or 80px depending on your design */
+  background-color: #000; /* or whatever you use */
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 50px;
   }
 }

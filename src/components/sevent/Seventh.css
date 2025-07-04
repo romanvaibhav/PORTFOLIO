@@ -59,3 +59,52 @@
 .social-icon:hover {
   transform: scale(1.2); /* increases size by 20% */
 }
+@media (max-width: 768px) {
+  .sevDivi {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sevBlock {
+    width: 100%;
+    height: 132vh;
+    margin-top: -2rem;
+  }
+  .headSev {
+    font-size: 18px;
+
+    font-weight: bold;
+    background: linear-gradient(to bottom, #dbb5f0, #6711b3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  .sevDivi2 {
+    width: 395px;
+    height: 50%;
+    margin-left: 15px;
+  }
+  .sevDivi1 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 65px;
+    margin-right: -30px;
+    margin-top: -10px;
+  }
+  .sevDivi1 h2 {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+  }
+  .sevDivi1 p {
+    margin-top: -18px;
+    font-size: 0.8rem;
+  }
+}

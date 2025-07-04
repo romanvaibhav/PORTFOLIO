@@ -31,13 +31,13 @@ function Second() {
           className="angular"
           icon={faAngular}
           beatFade
-          style={{ color: "#74C0FC", fontSize: "60px" }}
+          style={{ color: "#74C0FC" }}
         />
         <FontAwesomeIcon
           className="node"
           icon={faNodeJs}
           beatFade
-          style={{ color: "#0576cc", fontSize: "50px" }}
+          style={{ color: "#0576cc" }}
         />
         <FontAwesomeIcon
           className="java"
@@ -64,31 +64,45 @@ function Second() {
           </div>
 
           <div className="code-line">
-            <span className="line-number">1</span> I work with
-            <span>Node.js,</span>
-            <span>SpringBoot</span>and <span>Express.js</span>.
+            <span className="line-number">1</span>
+            <div className="code-text">
+              I work with
+              <span>Node.js,</span>
+              <span>SpringBoot</span>and <span>Express.js</span>.
+            </div>
           </div>
           <div className="code-line">
-            <span className="line-number">2</span> I build full-stack
-            applications with <span>React,</span>
-            <span>Angular</span>.
+            <span className="line-number">2</span>
+            <div className="code-text">
+              I build full-stack applications with <span>React,</span>
+              <span>Angular</span>.
+            </div>
           </div>
           <div className="code-line">
-            <span className="line-number">3</span> I specialize in{" "}
-            <span>React and Angular</span>for Frontend development.
+            <span className="line-number">3</span>
+            <div className="code-text">
+              I specialize in <span>React and Angular</span>for Frontend
+              development.
+            </div>
           </div>
           <div className="code-line">
-            <span className="line-number">4</span> For Frontend i use{" "}
-            <span>Typescript & Javascript</span>.
+            <span className="line-number">4</span>
+            <div className="code-text">
+              For Frontend i use <span>Typescript & Javascript</span>
+            </div>
           </div>
           <div className="code-line">
-            <span className="line-number">5</span> I use databases like{" "}
-            <span>SQL</span> and <span>MongoDB,</span>
-            <span>JDBC</span>.
+            <span className="line-number">5</span>
+            <div className="code-text">
+              I use databases like <span>SQL</span> and <span>MongoDB,</span>
+              <span>JDBC</span>
+            </div>
           </div>
           <div className="code-line">
-            <span className="line-number">6</span> I love to explore BlockChain
-            Technologies.
+            <span className="line-number">6</span>
+            <div className="code-text">
+              I love to explore BlockChain Technologies.
+            </div>
           </div>
         </section>
       </div>
@@ -97,19 +111,19 @@ function Second() {
           className="react"
           icon={faReact}
           beatFade
-          style={{ color: "#74C0FC", fontSize: "60px", marginTop: "20px" }}
+          style={{ color: "#74C0FC", marginTop: "20px" }}
         />
         <FontAwesomeIcon
           className="github"
           icon={faGithub}
           beatFade
-          style={{ fontSize: "40px", color: "#" }}
+          style={{ color: "#" }}
         />
         <FontAwesomeIcon
           className="js"
           icon={faJs}
           beatFade
-          style={{ color: "#f0db4f", fontSize: "40px" }}
+          style={{ color: "#f0db4f" }}
         />
       </div>
 

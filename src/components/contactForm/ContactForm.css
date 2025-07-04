@@ -58,3 +58,51 @@
 .form-button:hover {
   background-color: #0052cc;
 }
+@media (max-width: 768px) {
+  .contact-container {
+    /* background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(13, 15, 70)); */
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .contact-form {
+    /* background-color: rgba(255, 255, 255, 0.05); */
+
+    border-radius: 10px;
+    /* width: 80%; */
+    height: auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    box-shadow: 0 8px 16px rgba(0, 102, 255, 0.4);
+  }
+  .form-input,
+  .form-textarea {
+    /* padding: 6px; */
+    padding: 6px 12px;
+    font-size: 0.7rem;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  .form-button {
+    padding: 8px;
+    font-size: 0.9rem;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  .form-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+}

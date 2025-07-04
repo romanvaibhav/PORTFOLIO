@@ -22,7 +22,7 @@ function Fifth() {
         </div>
         <div>
           <button className="Projext" onClick={() => setActiveTab("skills")}>
-            Technical Skills
+            Tech Skills
           </button>
         </div>
         <div>
@@ -247,13 +247,13 @@ function Fifth() {
               </div>
             </div>
 
-            {/* <div className="projectDiv" data-aos="fade-up">
+            <div className="projectDiv" data-aos="fade-up">
               <div className="imgdiv">
                 <img src="/src/assets/Portfolio.png" alt="" />
               </div>
 
               <div className="namingProject">
-                <h4>Portfolio</h4>
+                <h4>Book-Your-Show</h4>
                 <div className="sepLiveCode">
                   <a
                     className="atag"
@@ -288,19 +288,24 @@ function Fifth() {
               </div>
               <div className="projDesc">
                 <p>
-                  This is a Portfolio website built with React.js for a dynamic
-                  user interface, leveraging JavaScript (ES6+) for core logic.
-                  Tailwind CSS was used extensively to achieve a clean styling
-                  approach.
+                  Book Your Show is a full-stack movie ticket booking web app
+                  built with the MEAN stack (MongoDB, Express.js, Angular,
+                  Node.js). It allows users to browse movies, filter by city or
+                  theatre, book seats, make payments, and view booking history.
+                  An admin panel enables managing movies, theatres, and
+                  showtimes.
                 </p>
               </div>
               <div>
                 <div className="techBadge">HTML</div>
-                <div className="techBadge">Tailwind</div>
-                <div className="techBadge">Javascript</div>
+                <div className="techBadge">Bootstrap</div>
                 <div className="techBadge">React.js</div>
+                <div className="techBadge">Node.js</div>
+                <div className="techBadge">Express.js</div>
+                <div className="techBadge">Node.js</div>
+                <div className="techBadge">rxjs</div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       )}
