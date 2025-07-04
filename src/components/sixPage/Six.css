@@ -18,11 +18,7 @@
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
-.imgandskills {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
+
 .Limits {
   display: flex;
   justify-content: center;
@@ -39,7 +35,7 @@
   height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: end;
 }
 .thinkimg img {
   /* background-size: cover; */
@@ -100,7 +96,7 @@
   .problemHead {
     /* margin-top: 20px; */
     margin-left: 20%;
-    margin-top: 0rem;
+    margin-top: -2rem;
     font-weight: bold;
     font-size: 32px;
   }
@@ -122,11 +118,11 @@
     align-items: center;
   }
   .achieve {
-    width: 30%;
+    width: 40%;
     height: 40vh;
     display: flex;
     margin-top: -120px;
-    margin-left: 11%;
+    margin-left: 19%;
     margin-right: 0px; /* ✅ remove the negative margin */
     flex-direction: column;
     justify-content: flex-end;
