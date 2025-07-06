@@ -149,7 +149,7 @@ function Fifth() {
                 <div className="sepLiveCode">
                   <a
                     className="atag"
-                    href="https://react-dashboard-panel2025.netlify.app/"
+                    href="https://findtalent.netlify.app/"
                     target="_blank"
                     style={{
                       marginRight: "25px",
@@ -160,7 +160,7 @@ function Fifth() {
                     Live
                   </a>
                   <a
-                    href=" https://github.com/romanvaibhav/Interview_Session
+                    href="https://github.com/romanvaibhav/FindTalent
 "
                     target="_blank"
                     rel="noopener noreferrer"
@@ -195,6 +195,7 @@ function Fifth() {
                 <div className="techBadge">StackBliz</div>
                 <div className="techBadge">bcrypt</div>
                 <div className="techBadge">JWT</div>
+                <div className="techBadge">WebSockets</div>
               </div>
             </div>
 
