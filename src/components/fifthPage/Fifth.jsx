@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import dashboard from "../../assets/dashboard.png";
 import portfolio from "../../assets/Portfolio.png";
+import findTalent from "../../assets/findtalent2.png";
 
 import { useEffect } from "react";
 function Fifth() {
@@ -141,9 +142,8 @@ function Fifth() {
 
             <div className="projectDiv" data-aos="fade-left">
               <div className="imgdiv">
-                <img src="/src/assets/Portfolio.png" alt="" />
+                <img src={findTalent} alt="" />
               </div>
-
               <div className="namingProject">
                 <h4>FindTalent Session</h4>
                 <div className="sepLiveCode">
