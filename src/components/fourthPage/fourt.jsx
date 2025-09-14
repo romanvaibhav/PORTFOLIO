@@ -14,9 +14,9 @@ function Fourth() {
 
         <div className="expcode" data-aos="zoom-in-left">
           <p>
-            Vector IT Solutions<span> | Junior Software Engineer</span>
+            Web Blocks<span> | Software Engineer</span>
           </p>
-          <p>May 2025 - Present</p>
+          <p>Aug 2023 - Aug 2025</p>
           <hr />
           <ul style={{ lineHeight: "1.8" }}>
             <li>
